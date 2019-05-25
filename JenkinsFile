@@ -6,7 +6,7 @@ pipeline {
  stages {
   stage('Checkout') {
    steps {
-    git credentialsId: 'aemad1718', url: 'https://github.com/aemad1718/SimpleCoreApp', 
+    git credentialsId: 'aemad1718', url: 'https://github.com/aemad1718/SimpleCoreApp.git', 
     branch: 'master'
    }
   }
